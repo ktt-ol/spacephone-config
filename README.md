@@ -47,6 +47,23 @@ virt-install \
  --vnc
  ```
 
+## DHCP
+
+We used our dhcp server (ISC dhcpd) to give the sip phone the ip address of the tftp server.
+
+Somewhre in `/etc/dhcp/dhcpd.conf`
+```
+class "cisco"
+{
+    match if substring (option vendor-class-identifier,0,37) = "Cisco Systems, Inc. IP Phone CP-7911G";
+    # phone.mainframe.lan
+    option tftp-server-name "<IP Address HERE>";
+}
+```
+
+Depending on your sip phone you have to change the match string.
+
+
 # Phone config files
 
 Download the SIP firmware [from here](https://goo.gl/ozAUrw). Use the zip version and unzip the content into `tftp/`
