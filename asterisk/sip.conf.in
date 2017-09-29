@@ -1,0 +1,76 @@
+[general]
+context=default
+nat=never
+tcpenable=yes                    ; Enable server for incoming TCP connections (default is no)
+tcpbindaddr=0.0.0.0
+
+register => 1483918e0@sipgate.de:#SIP_PW#@sipgate.de/1483918e0
+
+[sipgate_incomming]
+type=friend
+context=sipgate_in
+host=sipgate.de
+nat=yes
+transport=udp
+sipdebug=no
+allowguest=no
+alwaysauthreject=yes
+
+[100] ;Freiflaechen Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwFreiflaeche#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[101] ;Fräsenraum Cico IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwFraese#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[102] ;Radstelle Cico IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwRadstelle#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[999] ; Guest, Soft Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=guest
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+callgroup=1
+pickupgroup=1

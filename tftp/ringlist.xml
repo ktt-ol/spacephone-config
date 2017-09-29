@@ -1,0 +1,22 @@
+<CiscoIPPhoneRingList>
+   <Ring>
+      <DisplayName>Drums 1</DisplayName>
+      <FileName>Drums1.raw</FileName>
+   </Ring>
+   <Ring>
+      <DisplayName>Drums 1</DisplayName>
+      <FileName>Drums2.raw</FileName>
+   </Ring>
+   <Ring>
+      <DisplayName>Mr Burns</DisplayName>
+      <FileName>mayihelp.raw</FileName>
+   </Ring>
+   <Ring>
+      <DisplayName>Sax 1</DisplayName>
+      <FileName>Sax1.raw</FileName>
+   </Ring>
+   <Ring>
+      <DisplayName>Sax 2</DisplayName>
+      <FileName>Sax2.raw</FileName>
+   </Ring>
+</CiscoIPPhoneRingList>

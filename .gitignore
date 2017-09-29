@@ -1,0 +1,5 @@
+secrets.txt
+/tftp/*.sbn
+/tftp/*.loads
+/tftp/SEP*.xml
+/asterisk/sip.conf
