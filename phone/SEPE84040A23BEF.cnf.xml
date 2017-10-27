@@ -86,20 +86,20 @@
             <featureLabel>Fraese</featureLabel>
             <proxy>USECALLMANAGER</proxy>
             <port>5060</port>
-            <name>101</name>
+            <name>22</name>
             <displayName>Fraese</displayName>
             <autoAnswer>
                <autoAnswerEnabled>2</autoAnswerEnabled>
             </autoAnswer>
             <callWaiting>3</callWaiting>
-            <authName>101</authName>
+            <authName>22</authName>
             <authPassword>#authPwFraese#</authPassword>
             <sharedLine>false</sharedLine>
             <messageWaitingLampPolicy>1</messageWaitingLampPolicy>
             <messagesNumber>*97</messagesNumber>
             <ringSettingIdle>4</ringSettingIdle>
             <ringSettingActive>5</ringSettingActive>
-            <contact>101</contact>
+            <contact>22</contact>
             <forwardCallInfoDisplay>
                <callerName>true</callerName>
                <callerNumber>false</callerNumber>
