@@ -16,7 +16,22 @@ sipdebug=no
 allowguest=no
 alwaysauthreject=yes
 
-[100] ;Freiflaechen Cisco IP Phone
+[20] ;regal Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwRegal#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[21] ;Shop Cisco IP Phone
 type=friend
 context=from-internal
 host=dynamic
@@ -31,7 +46,7 @@ transport=tcp
 callgroup=1
 pickupgroup=1
 
-[101] ;Fräsenraum Cico IP Phone
+[22] ;Fräsenraum Cico IP Phone
 type=friend
 context=from-internal
 host=dynamic
@@ -46,11 +61,86 @@ transport=tcp
 callgroup=1
 pickupgroup=1
 
-[102] ;Radstelle Cico IP Phone
+[23] ;Radstelle Cico IP Phone
 type=friend
 context=from-internal
 host=dynamic
 secret=#authPwRadstelle#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[24] ;Conference Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwConference#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[25] ;Laser Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwLaser#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[26] ;Schnittstelle Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwSchnittstelle#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[27] ;Vorstandsbuero Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwVorstandsbuero#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[28] ;Secretlounge Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwSecretlounge#
 disallow=all
 nat=never
 allow=ulaw
@@ -74,3 +164,4 @@ allow=gsm
 insecure=invite
 callgroup=1
 pickupgroup=1
+
