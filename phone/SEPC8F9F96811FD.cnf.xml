@@ -93,7 +93,7 @@
             </autoAnswer>
             <callWaiting>3</callWaiting>
             <authName>25</authName>
-            <authPassword>#sshPwLaser#</authPassword>
+            <authPassword>#authPwLaser#</authPassword>
             <sharedLine>false</sharedLine>
             <messageWaitingLampPolicy>1</messageWaitingLampPolicy>
             <messagesNumber>*97</messagesNumber>
