@@ -1,0 +1,41 @@
+<CiscoIPPhoneMenu>
+ <Title>Mainframe Telefonbuch</Title>
+ <Prompt>Ihre Wahl</Prompt>
+ <MenuItem>
+  <Name>Regal</Name>
+  <URL>Dial:20</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Shop</Name>
+  <URL>Dial:21</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Fraese</Name>
+  <URL>Dial:22</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Radstelle</Name>
+  <URL>Dial:23</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Conference</Name>
+  <URL>Dial:24</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Laser</Name>
+  <URL>Dial:25</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Schnittstelle</Name>
+  <URL>Dial:26</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Vorstand</Name>
+  <URL>Dial:27</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>Secret Lounge</Name>
+  <URL>Dial:28</URL>
+ </MenuItem>
+
+</CiscoIPPhoneMenu>

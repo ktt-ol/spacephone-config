@@ -1,7 +1,7 @@
 <device>
    <deviceProtocol>SIP</deviceProtocol>
-   <sshUserId>#ssh_user#</sshUserId>
-   <sshPassword>#ssh_password#</sshPassword>
+   <sshUserId>admin</sshUserId>
+   <sshPassword>password</sshPassword>
    <devicePool>
       <dateTimeSetting>
          <dateTemplate>D-M-YY</dateTemplate>
@@ -93,7 +93,7 @@
             </autoAnswer>
             <callWaiting>3</callWaiting>
             <authName>21</authName>
-            <authPassword>#authPwFreiflaeche#</authPassword>
+            <authPassword>flaeche</authPassword>
             <sharedLine>false</sharedLine>
             <messageWaitingLampPolicy>1</messageWaitingLampPolicy>
             <messagesNumber>*97</messagesNumber>
@@ -157,8 +157,8 @@
    </networkLocaleInfo>
    <deviceSecurityMode>1</deviceSecurityMode>
    <authenticationURL></authenticationURL>
-   <directoryURL></directoryURL>
-   <servicesURL></servicesURL>
+   <directoryURL>http://phone.mainframe.lan/phonebook.xml</directoryURL>
+   <servicesURL>http://phone.mainframe.lan/phonebook.xml</servicesURL>
    <idleURL></idleURL>
    <informationURL></informationURL>
    <messagesURL></messagesURL>

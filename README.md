@@ -65,6 +65,19 @@ class "cisco"
 Depending on your sip phone you have to change the match string.
 
 
+## Web server for phonebook
+
+We use lighttpd that serve only the `www/phonebook.xml`.
+
+```
+apt-get install lighttpd
+```
+Add to `/etc/lighttpd/lighttpd.conf`
+```
+mimetype.assign = ( ".xml" => "text/xml" )
+```
+
+
 # Phone config files
 
 Download the SIP firmware [from here](https://goo.gl/ozAUrw). Use the zip version and unzip the content into `tftp/`
@@ -77,6 +90,11 @@ cp secrets.example.txt secrets.txt
 ```
 
 copy the `tftp/` folder to `/srv/ftfp`
+
+
+# Phonebook
+
+Copy everything in `www/` to `/var/www/`.
 
 
 # Debug
