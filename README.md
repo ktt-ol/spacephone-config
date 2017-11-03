@@ -4,6 +4,7 @@ We've setup an Asterisk server with old Cisco 7911 IP phones. You'll find here t
 
 More information about this phone: https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7911g/model.html
 
+Helpful Site for configuration: http://usecallmanager.nz/
 
 # Installation
 
@@ -82,6 +83,9 @@ copy the `tftp/` folder to `/srv/ftfp`
 
 Use this credentials after ssh login:
 User/Pass: debug/debug
+
+Reboot the phone with `**#**` (in the menu).
+
 
 ## Network
 
