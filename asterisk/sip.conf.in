@@ -31,7 +31,7 @@ transport=tcp
 callgroup=1
 pickupgroup=1
 
-[21] ;Shop Cisco IP Phone
+[21] ;Shop Linksys IP Phone
 type=friend
 context=from-internal
 host=dynamic
@@ -42,7 +42,7 @@ allow=ulaw
 allow=alaw
 allow=gsm
 insecure=invite
-transport=tcp
+transport=udp
 callgroup=1
 pickupgroup=1
 
