@@ -151,6 +151,21 @@ transport=tcp
 callgroup=1
 pickupgroup=1
 
+[29] ;E-Werkstatt Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwEWerkstatt#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
 [999] ; Guest, Soft Phone
 type=friend
 context=from-internal
