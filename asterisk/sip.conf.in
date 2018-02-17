@@ -31,7 +31,7 @@ transport=tcp
 callgroup=1
 pickupgroup=1
 
-[21] ;Shop Linksys IP Phone
+[21] ;Freifläche Linksys IP Phone
 type=friend
 context=from-internal
 host=dynamic
@@ -179,4 +179,3 @@ allow=gsm
 insecure=invite
 callgroup=1
 pickupgroup=1
-
