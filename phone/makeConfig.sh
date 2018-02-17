@@ -15,6 +15,6 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
   VALUE=${KEYVAL[1]}
 
   for file in *.xml; do
-    sed -i "" -e "s/${KEY}/${VALUE}/g" ../tftp/$file
+    sed -i -e "s/${KEY}/${VALUE}/g" ../tftp/$file
   done
 done < "$SECRETS"
