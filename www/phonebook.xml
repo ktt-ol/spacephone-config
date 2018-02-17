@@ -6,7 +6,7 @@
   <URL>Dial:20</URL>
  </MenuItem>
  <MenuItem>
-  <Name>Shop</Name>
+  <Name>Freifläche</Name>
   <URL>Dial:21</URL>
  </MenuItem>
  <MenuItem>
@@ -37,5 +37,8 @@
   <Name>Secret Lounge</Name>
   <URL>Dial:28</URL>
  </MenuItem>
-
+ <MenuItem>
+  <Name>E-Werkstatt</Name>
+  <URL>Dial:29</URL>
+ </MenuItem>
 </CiscoIPPhoneMenu>
