@@ -166,6 +166,36 @@ transport=tcp
 callgroup=1
 pickupgroup=1
 
+[30] ;Projektraum Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPwProjektraum#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
+[31] ;3D-Drucker Cisco IP Phone
+type=friend
+context=from-internal
+host=dynamic
+secret=#authPw3D#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+transport=tcp
+callgroup=1
+pickupgroup=1
+
 [999] ; Guest, Soft Phone
 type=friend
 context=from-internal

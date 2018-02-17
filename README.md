@@ -4,7 +4,8 @@ We've setup an Asterisk server with old Cisco 7911 IP phones. You'll find here t
 
 More information about this phone: https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7911g/model.html
 
-Helpful Site for configuration: http://usecallmanager.nz/
+Helpful Site for configuration: http://usecallmanager.nz/ and https://www.whizzy.org/2017/02/cisco-7941-asterisk-and-sip/
+
 
 # Installation
 

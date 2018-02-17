@@ -41,4 +41,12 @@
   <Name>E-Werkstatt</Name>
   <URL>Dial:29</URL>
  </MenuItem>
+ <MenuItem>
+  <Name>Projektraum</Name>
+  <URL>Dial:30</URL>
+ </MenuItem>
+ <MenuItem>
+  <Name>3D-Drucker</Name>
+  <URL>Dial:31</URL>
+ </MenuItem>
 </CiscoIPPhoneMenu>
