@@ -14,5 +14,5 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
   KEY=${KEYVAL[0]}
   VALUE=${KEYVAL[1]}
 
-  sed -i "" -e "s/${KEY}/${VALUE}/g" sip.conf
+  sed -i -e "s/${KEY}/${VALUE}/g" sip.conf
 done < "$SECRETS"
