@@ -1,0 +1,22 @@
+agi_request: /opt/agi-mqtt/test
+agi_channel: SIP/999-0000025e
+agi_language: en
+agi_type: SIP
+agi_uniqueid: 1525205115.1105
+agi_version: 13.14.1~dfsg-2+deb9u1
+agi_callerid: 999
+agi_calleridname: Holger
+agi_callingpres: 0
+agi_callingani2: 0
+agi_callington: 0
+agi_callingtns: 0
+agi_dnid: 20
+agi_rdnis: unknown
+agi_context: from-internal
+agi_extension: 20
+agi_priority: 1
+agi_enhanced: 0.0
+agi_accountcode:
+agi_threadid: 140221933041408
+agi_arg_1: /opt/agi-mqtt/mqtt.cfg
+agi_arg_2: test/phoneCall
