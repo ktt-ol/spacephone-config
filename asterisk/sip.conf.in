@@ -213,3 +213,18 @@ allow=gsm
 insecure=invite
 callgroup=1
 pickupgroup=1
+
+[900] ; Hüsemann
+type=friend
+context=from-internal
+host=dynamic
+secret=#huesemann#
+disallow=all
+nat=never
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=invite
+callgroup=1
+pickupgroup=1
+transport=tcp
