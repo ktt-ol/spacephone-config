@@ -1,2 +1,2 @@
-sendToMqtt.conf
+*.conf
 .idea/
