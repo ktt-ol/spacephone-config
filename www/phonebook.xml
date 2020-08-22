@@ -49,4 +49,8 @@
   <Name>3D-Drucker</Name>
   <URL>Dial:31</URL>
  </MenuItem>
+  <MenuItem>
+  <Name>Holzwerkstatt</Name>
+  <URL>Dial:32</URL>
+ </MenuItem>
 </CiscoIPPhoneMenu>
