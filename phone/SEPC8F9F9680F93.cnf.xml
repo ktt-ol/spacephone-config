@@ -157,8 +157,8 @@
    </networkLocaleInfo>
    <deviceSecurityMode>1</deviceSecurityMode>
    <authenticationURL></authenticationURL>
-   <directoryURL>http://phone.mainframe.lan/phonebook.xml</directoryURL>
-   <servicesURL>http://phone.mainframe.lan/phonebook.xml</servicesURL>
+   <directoryURL>http://phone.lan.mainframe.io/phonebook.xml</directoryURL>
+   <servicesURL>http://phone.lan.mainframe.io/phonebook.xml</servicesURL>
    <idleURL></idleURL>
    <informationURL></informationURL>
    <messagesURL></messagesURL>
