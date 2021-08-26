@@ -14,11 +14,18 @@ register => 2572153e0@sipgate.de:#SIP2_PW#@sipgate.de/2572153e0
 type=friend
 context=sipgate_in
 host=sipgate.de
-nat=yes
+insecure=invite
+nat=force_rport
 transport=udp
 sipdebug=no
 allowguest=no
 alwaysauthreject=yes
+qualify=yes
+canreinvite=no
+disallow=all
+allow=alaw
+allow=ulaw
+
 
 [20] ;regal Cisco IP Phone
 type=friend
