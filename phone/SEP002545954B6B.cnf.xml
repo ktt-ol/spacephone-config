@@ -8,7 +8,7 @@
          <timeZone>W. Europe Standard/Daylight Time</timeZone>
          <ntps>
             <ntp>
-               <name>192.168.2.1</name>
+               <name>192.168.14.1</name>
                <ntpMode>Unicast</ntpMode>
             </ntp>
          </ntps>
@@ -21,7 +21,7 @@
                      <ethernetPhonePort>2000</ethernetPhonePort>
                      <sipPort>5060</sipPort>
                   </ports>
-                  <processNodeName>192.168.2.253</processNodeName>
+                  <processNodeName>192.168.14.5</processNodeName>
                </callManager>
             </member>
          </members>
@@ -83,23 +83,23 @@
       <sipLines>
          <line button="1">
             <featureID>9</featureID>
-            <featureLabel>Conference</featureLabel>
+            <featureLabel>Freiflaeche</featureLabel>
             <proxy>USECALLMANAGER</proxy>
             <port>5060</port>
-            <name>24</name>
-            <displayName>Conference</displayName>
+            <name>21</name>
+            <displayName>Freiflaeche</displayName>
             <autoAnswer>
                <autoAnswerEnabled>2</autoAnswerEnabled>
             </autoAnswer>
             <callWaiting>3</callWaiting>
-            <authName>24</authName>
-            <authPassword>#authPwConference#</authPassword>
+            <authName>21</authName>
+            <authPassword>#authPwFreiflaeche#</authPassword>
             <sharedLine>false</sharedLine>
             <messageWaitingLampPolicy>1</messageWaitingLampPolicy>
             <messagesNumber>*97</messagesNumber>
             <ringSettingIdle>4</ringSettingIdle>
             <ringSettingActive>5</ringSettingActive>
-            <contact>24</contact>
+            <contact>21</contact>
             <forwardCallInfoDisplay>
                <callerName>true</callerName>
                <callerNumber>false</callerNumber>
